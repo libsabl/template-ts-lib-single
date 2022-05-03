@@ -8,7 +8,9 @@ specifiers:
   eslint-config-prettier: ^8.3.0
   eslint-plugin-prettier: ^4.0.0
   jest: ^27.4.7
+  opener: ^1.5.2
   prettier: ^2.5.1
+  rimraf: ^3.0.2
   ts-jest: ^27.1.3
   typescript: ^4.5.5
 
@@ -20,7 +22,9 @@ devDependencies:
   eslint-config-prettier: 8.5.0_eslint@8.14.0
   eslint-plugin-prettier: 4.0.0_665eb419c9d7860ca0c224f7f6dcdace
   jest: 27.5.1
+  opener: 1.5.2
   prettier: 2.6.2
+  rimraf: 3.0.2
   ts-jest: 27.1.4_de3efcd1e6a6e8470860984ab19632da
   typescript: 4.6.4
 
@@ -2616,6 +2620,11 @@ packages:
     engines: {node: '>=6'}
     dependencies:
       mimic-fn: 2.1.0
+    dev: true
+
+  /opener/1.5.2:
+    resolution: {integrity: sha512-ur5UIdyw5Y7yEj9wLzhqXiy6GZ3Mwx0yGI+5sMn2r0N0v3cKJvUmFH5yPP+WXh9e0xfyzyJX95D8l088DNFj7A==}
+    hasBin: true
     dev: true
 
   /optionator/0.8.3:

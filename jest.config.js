@@ -8,5 +8,8 @@ module.exports = {
     '^\\$/(.*)$': path.join(__dirname, 'src/$1'),
     '^\\$test/(.*)$': path.join(__dirname, 'test/$1'),
   },
+  collectCoverage: true,
   collectCoverageFrom: ['src/**/*.ts'],
+  coverageDirectory: path.join(__dirname, 'coverage'),
+  coverageReporters: ['text'],
 };

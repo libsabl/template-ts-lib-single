@@ -13,14 +13,16 @@ This repo contains a standard template project for a single TypeScript library p
 2. Clone the repo. Using `degit` gets you the repo content without the git history:
 
     ```sh
-    .> degit https://github.com/libsabl/template-ts-lib-single my-project
+    degit https://github.com/libsabl/template-ts-lib-single my-project
+    git init my-project
     ```
+4. Replace `name`, `description`, and `contributors` in `package.json`.
 
-3. Replace `name`, `description`, and `contributors` in `package.json`.
+5. Update copyright holder in [LICENSE](./LICENSE)
 
-4. See [SETUP.md](./SETUP.md) and try out the tooling from the command line and in VS Code.
+6. See [SETUP.md](./SETUP.md) and try out the tooling from the command line and in VS Code.
 
-5. Replace contents of `/src` and `/test` with your own code. Off you go!
+7. Replace contents of `/src` and `/test` with your own code. Off you go!
 
 
 ## Developer setup
