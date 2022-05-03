@@ -16,14 +16,16 @@ This repo contains a standard template project for a single TypeScript library p
     degit https://github.com/libsabl/template-ts-lib-single my-project
     git init my-project
     ```
-4. Replace `name`, `description`, and `contributors` in `package.json`.
 
-5. Update copyright holder in [LICENSE](./LICENSE)
+3. Replace `name`, `description`, and `contributors` in `package.json`.
 
-6. See [SETUP.md](./SETUP.md) and try out the tooling from the command line and in VS Code.
+4. Update copyright year / holder in [LICENSE](./LICENSE) and LICENSE_HEADER, which is a sample
+for a standard copyright notice to include at the top of new code files. For convenience, you
+can global find/replace the string `REPO_AUTHORS`.
 
-7. Replace contents of `/src` and `/test` with your own code. Off you go!
+5. See [SETUP.md](./SETUP.md) and try out the tooling from the command line and in VS Code.
 
+6. Replace contents of `/src` and `/test` with your own code. Off you go!
 
 ## Developer setup
 
