@@ -81,8 +81,18 @@ Your life will be much better with these extensions installed
 >
 > **TL;DR:** In import statements
 >
-> - `$/` means the local `src` directory
-> - `$test/` means the local `test` directory within a project
+> - `'$'` alone means `src/index.ts`
+> - `'$/...'` means the local `src` directory within a project
+> - `'$test/...'` means the local `test` directory within a project
+>
+>
+> #### Examples
+> 
+> ```ts
+> import { repeat    } from '$'
+> import { reverse   } from '$/strings/utils'
+> import { MockClock } from '$test/fixtures/mocks'
+> ```
 >
 
 Path aliases are extremely helpful for writing succint and intuitive imports *between files within the same package*.

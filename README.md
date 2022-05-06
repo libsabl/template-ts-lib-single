@@ -19,8 +19,10 @@ This repo contains a standard template project for a single TypeScript library p
 
 3. Replace `name`, `description`, and `contributors` in `package.json`.
 
-4. Update copyright year / holder in [LICENSE](./LICENSE) and LICENSE_HEADER, which is a sample
-for a standard copyright notice to include at the top of new code files. For convenience, you
+4. Update copyright year / holder in [LICENSE](./LICENSE) and [LICENSE_HEADER](./LICENSE_HEADER).
+License is the actual full license for the repo, and LICENSE_HEADER is a sample
+for a standard copyright notice to include at the top of new code files, modeled after the 
+standard copyright header in the [golang repo](https://github.com/golang/go). For convenience, you
 can global find/replace the string `REPO_AUTHORS`.
 
 5. See [SETUP.md](./SETUP.md) and try out the tooling from the command line and in VS Code.
